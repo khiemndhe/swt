@@ -1,0 +1,58 @@
+/* Center the text and apply styling to the heading */
+.text-center.h1 {
+    text-align: center;
+    font-size: 2.5rem; /* Adjust as needed */
+    font-weight: bold;
+    margin-bottom: 5rem; /* Adjust as needed */
+    margin-top: 1rem; /* Adjust as needed */
+}
+
+/* Center the form and add margin on smaller screens */
+form {
+    margin: 0.25rem; /* Adjust as needed */
+}
+
+/* Style for the icon and form elements */
+.d-flex.flex-row.align-items-center.mb-4 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-bottom: 1rem; /* Adjust as needed */
+}
+
+.d-flex.flex-row.align-items-center.mb-4 i {
+    font-size: 1.5rem; /* Adjust as needed */
+    margin-right: 1rem; /* Adjust as needed */
+}
+
+.form-outline.flex-fill.mb-0 {
+    flex: 1;
+}
+
+.form-label {
+    display: block;
+    margin-bottom: 0.5rem; /* Adjust as needed */
+}
+
+.form-control {
+    width: 100%; /* Take up full width */
+}
+
+/* Style for the error message */
+.d-block.mx-4.mb-3.mb-lg-4.text-danger b {
+    display: block;
+    margin: 0.5rem 0; /* Adjust as needed */
+}
+
+/* Style for the submit button */
+.d-block.mx-4.mb-3.mb-lg-4.text-center button.btn-primary {
+    display: block;
+    width: 100%;
+    padding: 0.75rem; /* Adjust as needed */
+}
+
+/* Style for the link back to login */
+.text-center.pt-2 a {
+    display: block;
+    padding-top: 0.5rem; /* Adjust as needed */
+}
